@@ -1,11 +1,11 @@
 package com.springcourse.firstproject.dto;
 
-public class RegistrationDto {
+public class RegistrationDTO {
     private String username;
     private String password;
     private String email;
 
-    public RegistrationDto(String username, String password, String email) {
+    public RegistrationDTO(String username, String password, String email) {
         this.username = username;
         this.password = password;
         this.email = email;
